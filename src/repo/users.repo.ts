@@ -5,7 +5,7 @@ export const usersRepo = [
     firstName: "Michael",
     lastName: "Scott",
     status: {
-      image: "/michael-scott.webp",
+      image: "michael-scott.webp",
       update: "Going out for a parkour stunt.",
     },
     blockedUsers: ["toby.flenderson@dundermifflin.com"],
@@ -16,7 +16,7 @@ export const usersRepo = [
     firstName: "Jim",
     lastName: "Halpert",
     status: {
-      image: "/jim-halpert.png",
+      image: "jim-halpert.png",
       update: "Pulling pranks on Dwight.",
     },
     blockedUsers: [],
@@ -49,7 +49,7 @@ export const usersRepo = [
     firstName: "Ryan",
     lastName: "Howard",
     status: {
-      image: "/ryan-howard.webp",
+      image: "ryan-howard.webp",
       update: "Burning my way up the corporate ladder.",
     },
     blockedUsers: ["jan.levinson@dundermifflin.com"],
@@ -60,7 +60,7 @@ export const usersRepo = [
     firstName: "Stanley",
     lastName: "Hudson",
     status: {
-      image: "/stanley-hudson.webp",
+      image: "stanley-hudson.webp",
       update: "Another day, another crossword puzzle.",
     },
     blockedUsers: [
@@ -76,7 +76,7 @@ export const usersRepo = [
     firstName: "Kevin",
     lastName: "Malone",
     status: {
-      image: "/kevin-malone.webp",
+      image: "kevin-malone.webp",
       update: "Counting beans and hoping for more chili.",
     },
     blockedUsers: [],
@@ -87,7 +87,7 @@ export const usersRepo = [
     firstName: "Angela",
     lastName: "Martin",
     status: {
-      image: "/angela-martin.webp",
+      image: "angela-martin.webp",
       update: "Strictly business, no nonsense.",
     },
     blockedUsers: [],
@@ -98,7 +98,7 @@ export const usersRepo = [
     firstName: "Oscar",
     lastName: "Martinez",
     status: {
-      image: "/oscar-martinez.webp",
+      image: "oscar-martinez.webp",
       update: "Being the voice of reason.",
     },
     blockedUsers: [],
@@ -109,7 +109,7 @@ export const usersRepo = [
     firstName: "Phyllis",
     lastName: "Smith",
     status: {
-      image: "/phyllis-smith.webp",
+      image: "phyllis-smith.webp",
       update: "Helping others, and enjoying the peace.",
     },
     blockedUsers: [],
@@ -120,7 +120,7 @@ export const usersRepo = [
     firstName: "Toby",
     lastName: "Flenderson",
     status: {
-      image: "/toby-flenderson.webp",
+      image: "toby-flenderson.webp",
       update: "Trying to maintain order in a chaotic office.",
     },
     blockedUsers: [],
@@ -131,7 +131,7 @@ export const usersRepo = [
     firstName: "Creed",
     lastName: "Bratton",
     status: {
-      image: "/creed-bratton.webp",
+      image: "creed-bratton.webp",
       update: "Living a mysterious life.",
     },
     blockedUsers: [],
@@ -142,7 +142,7 @@ export const usersRepo = [
     firstName: "Kelly",
     lastName: "Kapoor",
     status: {
-      image: "/kelly-kapoor.webp",
+      image: "kelly-kapoor.webp",
       update: "Chasing drama, always.",
     },
     blockedUsers: [],
@@ -153,7 +153,7 @@ export const usersRepo = [
     firstName: "Mindy",
     lastName: "Kaling",
     status: {
-      image: "/mindy-kaling.webp",
+      image: "mindy-kaling.webp",
       update: "Writing a show. Because, obviously.",
     },
     blockedUsers: [],
@@ -164,7 +164,7 @@ export const usersRepo = [
     firstName: "Jan",
     lastName: "Levinson",
     status: {
-      image: "/jan-levinson.webp",
+      image: "jan-levinson.webp",
       update: "Trying to get my life back on track.",
     },
     blockedUsers: [],
