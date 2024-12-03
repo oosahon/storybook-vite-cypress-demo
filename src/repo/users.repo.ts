@@ -27,7 +27,7 @@ export const usersRepo = [
     firstName: "Pam",
     lastName: "Beesly",
     status: {
-      image: "/pam-besly.jpeg",
+      image: "pam-besly.jpeg",
       update: "Waiting for Jim to make a move.",
     },
     blockedUsers: [],
@@ -38,7 +38,7 @@ export const usersRepo = [
     firstName: "Dwight",
     lastName: "Schrute",
     status: {
-      image: "/dwight-schrute.webp",
+      image: "dwight-schrute.jpeg",
       update: "Assistant Regional Manager at Dunder Mifflin.",
     },
     blockedUsers: ["jim.alpert@dundermifflin.com"],
@@ -49,7 +49,7 @@ export const usersRepo = [
     firstName: "Ryan",
     lastName: "Howard",
     status: {
-      image: "ryan-howard.webp",
+      image: "ryan-howard.jpg",
       update: "Burning my way up the corporate ladder.",
     },
     blockedUsers: ["jan.levinson@dundermifflin.com"],
@@ -60,7 +60,7 @@ export const usersRepo = [
     firstName: "Stanley",
     lastName: "Hudson",
     status: {
-      image: "stanley-hudson.webp",
+      image: "stanley-hudson.jpeg",
       update: "Another day, another crossword puzzle.",
     },
     blockedUsers: [
