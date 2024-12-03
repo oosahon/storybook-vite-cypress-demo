@@ -1,0 +1,172 @@
+export const usersRepo = [
+  {
+    email: "michael.scott@dundermifflin.com",
+    password: "password",
+    firstName: "Michael",
+    lastName: "Scott",
+    status: {
+      image: "/michael-scott.webp",
+      update: "Going out for a parkour stunt.",
+    },
+    blockedUsers: ["toby.flenderson@dundermifflin.com"],
+  },
+  {
+    email: "jim.halpert@dundermifflin.com",
+    password: "password",
+    firstName: "Jim",
+    lastName: "Halpert",
+    status: {
+      image: "/jim-halpert.png",
+      update: "Pulling pranks on Dwight.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "pam.beesly@dundermifflin.com",
+    password: "password",
+    firstName: "Pam",
+    lastName: "Beesly",
+    status: {
+      image: "/pam-besly.jpeg",
+      update: "Waiting for Jim to make a move.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "dwight.schrute@dundermifflin.com",
+    password: "password",
+    firstName: "Dwight",
+    lastName: "Schrute",
+    status: {
+      image: "/dwight-schrute.webp",
+      update: "Assistant Regional Manager at Dunder Mifflin.",
+    },
+    blockedUsers: ["jim.alpert@dundermifflin.com"],
+  },
+  {
+    email: "ryan.howard@dundermifflin.com",
+    password: "password",
+    firstName: "Ryan",
+    lastName: "Howard",
+    status: {
+      image: "/ryan-howard.webp",
+      update: "Burning my way up the corporate ladder.",
+    },
+    blockedUsers: ["jan.levinson@dundermifflin.com"],
+  },
+  {
+    email: "stanley.hudson@dundermifflin.com",
+    password: "password",
+    firstName: "Stanley",
+    lastName: "Hudson",
+    status: {
+      image: "/stanley-hudson.webp",
+      update: "Another day, another crossword puzzle.",
+    },
+    blockedUsers: [
+      "michael.scott@dundermifflin.com",
+      "kevin.malone@dundermifflin.com",
+      "angela.martin@dundermifflin.com",
+      "kelly.kapoor@dundermifflin.com",
+    ],
+  },
+  {
+    email: "kevin.malone@dundermifflin.com",
+    password: "password",
+    firstName: "Kevin",
+    lastName: "Malone",
+    status: {
+      image: "/kevin-malone.webp",
+      update: "Counting beans and hoping for more chili.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "angela.martin@dundermifflin.com",
+    password: "password",
+    firstName: "Angela",
+    lastName: "Martin",
+    status: {
+      image: "/angela-martin.webp",
+      update: "Strictly business, no nonsense.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "oscar.nunez@dundermifflin.com",
+    password: "password",
+    firstName: "Oscar",
+    lastName: "Martinez",
+    status: {
+      image: "/oscar-martinez.webp",
+      update: "Being the voice of reason.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "phyllis.smith@dundermifflin.com",
+    password: "password",
+    firstName: "Phyllis",
+    lastName: "Smith",
+    status: {
+      image: "/phyllis-smith.webp",
+      update: "Helping others, and enjoying the peace.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "toby.flenderson@dundermifflin.com",
+    password: "password",
+    firstName: "Toby",
+    lastName: "Flenderson",
+    status: {
+      image: "/toby-flenderson.webp",
+      update: "Trying to maintain order in a chaotic office.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "creed.bratton@dundermifflin.com",
+    password: "password",
+    firstName: "Creed",
+    lastName: "Bratton",
+    status: {
+      image: "/creed-bratton.webp",
+      update: "Living a mysterious life.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "kelly.kapoor@dundermifflin.com",
+    password: "password",
+    firstName: "Kelly",
+    lastName: "Kapoor",
+    status: {
+      image: "/kelly-kapoor.webp",
+      update: "Chasing drama, always.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "mindy.kaling@dundermifflin.com",
+    password: "password",
+    firstName: "Mindy",
+    lastName: "Kaling",
+    status: {
+      image: "/mindy-kaling.webp",
+      update: "Writing a show. Because, obviously.",
+    },
+    blockedUsers: [],
+  },
+  {
+    email: "jan.levinson@dundermifflin.com",
+    password: "password",
+    firstName: "Jan",
+    lastName: "Levinson",
+    status: {
+      image: "/jan-levinson.webp",
+      update: "Trying to get my life back on track.",
+    },
+    blockedUsers: [],
+  },
+];
