@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 import { findByTestId } from "../testUtils";
+import { mount } from "cypress/react18";
 import { render } from "@testing-library/react";
 import App from "../../App";
 import { AuthProvider } from "../../AuthContext";
@@ -8,7 +9,7 @@ import { usersRepo } from "../../repo/users.repo";
 
 describe("Without stories", () => {
   it("Renders the right data for Michael Scott", () => {
-    render(
+    mount(
       <AuthProvider mockUser={usersRepo[0]}>
         <App />
       </AuthProvider>
